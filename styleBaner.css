@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+.encabezado{
+    margin: 20px;
+    background-color: rgb(167, 170, 8);
+    padding: 10px;
+    font-size: 50px;
+    color: #1C4F66;
+    border-radius: 10px;
+}
+.encabezado{
+    background-image: url(imagenes/Panorama_de_Copacabana.webp);
+    background-size: cover;
+    background-position: center;
+}
+.enla{
+    width: 5px;
+    margin: 5px;
+    background-color: #106288;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12%;
+    color: rgb(216, 246, 247);
+}
+.enla:hover{
+    background-color: rgb(200, 237, 247);
+    color: black;
+}
+.cuerpo{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(105, 86, 23);
+    border-radius: 1%;
+    background-image: url(imagenes/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.departamentos a{
+
+    color: rgb(208, 242, 243);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.departamentos a:hover{
+    background-color: rgb(255, 243, 227);
+    color: black;
+    border-radius: 10px;
+}
+.departamentos a.active{
+    border-radius: 10px;
+    background-color: #2B799D;
+    color: black;
+}
+.departamentos{
+    width: 150px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 2%;
+}
+.final{
+    background-color: #98BAC4;
+    margin: 20px;
+}
